@@ -1,14 +1,14 @@
 import Input from "components/UI/Input";
 import styles from "./MealItemForm.module.css";
 
-function MealItemForm() {
+function MealItemForm(props) {
 	return (
 		<form className={styles.form}>
 			<Input
 				label="Amount:"
 				input={{
 					type: "number",
-					id: "amount",
+					id: "amount_" + props.id,
 					min: "1",
 					max: "5",
 					step: "1",

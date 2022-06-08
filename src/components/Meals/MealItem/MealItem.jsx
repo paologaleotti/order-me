@@ -12,7 +12,7 @@ function MealItem({ meal: mealProp }) {
 				<div className={styles.price}>{price}</div>
 			</div>
 			<div>
-				<MealItemForm />
+				<MealItemForm id={mealProp.id} />
 			</div>
 		</li>
 	);

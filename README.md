@@ -3,7 +3,7 @@
 
 >### An easy to use food order application built with React and Firebase
 
-<img src="app-demo.gif" width="768">
+<img src="/src/assets/app-demo.gif" width="768">
 
 ## Features
 
